@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<title>Chinese Engineering Student Association</title>
+
+<link rel=”icon” href=”icon.png” mce_href=”icon.png” type=”image/x-icon”>
+<link rel=”shortcut icon” href=”icon.png” mce_href=”icon.png” type=”image/x-icon”>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html Courier
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("background.png");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+        <a href="main.html" class="w3-bar-item w3-button w3-wide">CESA</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+          <a href="main.html" class="w3-bar-item w3-button">About</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="realmembers.html">Departments</a>
+              <a href="board.html">Board</a>
+            </div>
+          </div>
+          <a href="realmembers.html" class="w3-bar-item w3-button">Departments</a>
+          <a href="activities.html" class="w3-bar-item w3-button">Events</a>
+          <a href="contactus.html" class="w3-bar-item w3-button">Contact Us</a>
+
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#Intro" onclick="w3_close()" class="w3-bar-item w3-button">Intro</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#Members" onclick="w3_close()" class="w3-bar-item w3-button">Departments</a>
+  <a href="#Activities" onclick="w3_close()" class="w3-bar-item w3-button">Events</a>
+  <a href="#Contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+
+<div class="w3-container" style="padding:128px 16px" id="Board">
+  <h3 class="w3-center">Board</h3>
+  <!--<p class="w3-center w3-large">The ones who runs this organization</p>-->
+  <div class="w3-row"  style="margin-top:64px">
+
+    <div class="w3-col l3 w3-margin-bottom"></div>
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/会长.jpg" width="252" height ="377" alt="pr" >
+        </div>
+        <div class="w3-container">
+          <h3 class="w3-center">会长</h3>
+          <p class="w3-opacity" style="text-align:center">谢晨</p>
+        </div>
+      <!-- </div> -->
+    </div>
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/副会长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">副会长</h3>
+          <p class="w3-opacity" style="text-align:center">李泽田</p>
+        </div>
+      <!-- </div> -->
+    </div>
+    <div class="w3-row l3 w3-margin-bottom"></div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/人事部部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">人事部部长</h3>
+          <p class="w3-opacity" style="text-align:center">杜杰</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/副会长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">人事部副部长</h3>
+          <p class="w3-opacity" style="text-align:center">戴裕颖</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/学术部部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">学术部部长</h3>
+          <p class="w3-opacity" style="text-align:center">王昕玉</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/学术部副部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">学术部副部长</h3>
+          <p class="w3-opacity" style="text-align:center">王清怡</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/活动部部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">活动部部长</h3>
+          <p class="w3-opacity" style="text-align:center">蔡缙艺</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/活动部副部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">活动部副部长</h3>
+          <p class="w3-opacity" style="text-align:center">张丽泰</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/开发部部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">开发部部长</h3>
+          <p class="w3-opacity" style="text-align:center">李天宇</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/开发部副部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">开发部副部长</h3>
+          <p class="w3-opacity" style="text-align:center">王卓越</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/宣传部部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">宣传部部长</h3>
+          <p class="w3-opacity" style="text-align:center">云浩翔</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/宣传部副部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">宣传部副部长</h3>
+          <p class="w3-opacity" style="text-align:center">金诺</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/外联部部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">外联部部长</h3>
+          <p class="w3-opacity" style="text-align:center">章冕</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/外联部副部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">外联部副部长</h3>
+          <p class="w3-opacity" style="text-align:center">张曼莹</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/财务部部长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">财务部部长</h3>
+          <p class="w3-opacity" style="text-align:center">练可欣</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="w3-col l3 w3-margin-bottom">
+      <!-- <div class="w3-card"> -->
+        <div class="w3-center">
+        <img class ="img-circle" src="photos/board/ccb会长.jpg" width="252" height ="377" alt="pr" >
+          </div>
+        <div class="w3-container">
+          <h3 class="w3-center">职业发展部长</h3>
+          <p class="w3-opacity" style="text-align:center">李泽田</p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+</div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <img src="Wechat.jpg" alt="Tech" style="width:10%">
+    <div>Chinese Engineering Student Association</div>
+    <div>in University of Illinois at Urbana-Champaign</div>
+</div>
+
+</footer>
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
